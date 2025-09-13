@@ -1,6 +1,8 @@
 :root {
   --background: #ffffff;
   --foreground: #171717;
+  --principal: rgb(167, 42, 23);
+  --gray: #1b1b1b;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -8,6 +10,12 @@
     --background: #0a0a0a;
     --foreground: #ededed;
   }
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; 
 }
 
 html,

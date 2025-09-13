@@ -1,0 +1,38 @@
+/* style.module.css */
+.header {
+    background: var(--gray);
+    color: white;
+    /* padding: 20px; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: fixed;
+    flex-direction: row;
+    z-index: 1000;
+    width: 95%;
+    top: 0;
+    height: 70px;
+    margin: 45px;
+    padding: 20px;
+    border-radius: 20px 5px 20px 5px;
+    list-style: none;
+    border : 1px solid var(--gray-alpha-200);
+}
+
+.nav {
+    display: flex;
+     display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+    width: 100%;
+    
+}
+
+.menu {
+        gap: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    list-style: none;
+}
