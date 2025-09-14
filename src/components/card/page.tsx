@@ -1,8 +1,11 @@
 "use client";
 
-import styles from "@/components/header/style.module.css";
+import styles from "@/components/card/style.module.css";
 export default function Card() {
     return (
-        <div className={styles.card}></div>
+        <div className="all">a
+        <div className={styles.CardContainer}>
+        <div className={styles.card}>a</div>
+        </div></div>
     );
 }

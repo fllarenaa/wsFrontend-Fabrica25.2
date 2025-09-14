@@ -1,0 +1,13 @@
+
+.all {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vw;
+}
+
+.card {
+    width: 20%;
+    height: 25%;
+    background-color: var(--gray);
+}

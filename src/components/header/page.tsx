@@ -11,10 +11,12 @@ export default function Header() {
             <nav className={styles.nav}>
             <Image src="/Logo.png" alt="Logo" width={50} height={50}/>
                 <ul className={styles.menu}>
-                    <li className={styles.optionHeader}>Início</li>
-                    <li className={styles.optionHeader}>Pokemon</li>
-                    <li className={styles.optionHeader}>Favoritos</li>
-                    <li className={styles.optionHeader}>Estatísticas</li>
+                    <li className={styles.optionHeader}>Total de pokemons</li>
+                    <li className={styles.optionHeader}>Pokemons Lendário</li>
+                    <li className={styles.optionHeader}>Pokemons Míticos</li>
+                    <li className={styles.optionHeader}>
+                        <button></button>
+                    </li>
                 </ul>
             </nav>
         </header>
