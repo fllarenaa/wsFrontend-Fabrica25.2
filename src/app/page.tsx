@@ -13,6 +13,12 @@ interface PokemonListItem {
   url: string;
 }
 
+interface PokemonType {
+  type: {
+    name: string;
+  };
+}
+
 interface PokemonData {
   id: number;
   name: string;
@@ -41,7 +47,7 @@ export default function Home() {
             id: pokemonRes.data.id,
             name: pokemonRes.data.name,
             image: pokemonRes.data.sprites.front_default,
-            types: pokemonRes.data.types.map((t: any) => t.type.name),
+            types: pokemonRes.data.types.map((t: PokemonType) => t.type.name),
             weight: pokemonRes.data.weight,
             base_experience: pokemonRes.data.base_experience,
           };
