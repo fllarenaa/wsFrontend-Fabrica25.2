@@ -1,4 +1,4 @@
-/* style.module.css */
+
 .EstatisticasContainer {
     background: var(--gray);
     color: white;
@@ -9,31 +9,40 @@
     position: fixed;
     flex-direction: row;
     z-index: 1000;
-    width: 95%;
-    top: 100;
-    /* left: 0; */
-    height: 20px;
-    margin: 45px;
-    padding: 20px;
-    border-radius: 20px 5px 20px 5px;
+    width: 100%;
+    top: 20px;
+    left: 50%;
+    /* height: 20px; */
+    /* margin: 45px; */
+    padding:10px 20px;
+    transform: translate(-50%);
+    border-radius: 50px;
     list-style: none;
+    gap: 20px;
     border : 1px solid var(--gray-alpha-200);
+    max-width: 1200px;
+    top: 136px;
 }
 
-.nav {
-    display: flex;
+.nav, .menu, .btnContainer {
      display: flex;
     align-items: center;
     justify-content: center;
-    flex-direction: row;
-    width: 100%;
+    gap: 10px;
     
 }
 
-.menu {
-        gap: 20px;
+
+.inputText {
+    /* position: absolute; */
     display: flex;
     align-items: center;
-    justify-content: space-between;
-    list-style: none;
+    outline: none;
+    border: none;
+    border-radius: 20px;
+    padding: 5px 20px;
+
+    background: var(--gray-alpha-200);
 }
+
+
